@@ -34,14 +34,22 @@ header {
   list-style: none;
   cursor: pointer;
 }
+
+.dropdownOptions{
+  position: absolute;
+  top: 100px;
+  width: 100vw;
+  left: 0px;
+  height: 300px;
+  background-color: white;
+}
 .logosConatiner {
   display: flex;
   gap: 20px;
   padding-right: 20px;
 }
 
-.displayOnSmallerScreen,
-.dropdownOptions {
+.displayOnSmallerScreen{
   display: none;
 }
 
