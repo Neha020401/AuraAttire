@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding-block: 20px;
+    margin-top:50px ;
+}
+
+.footerDetailsPointer ul{
+    list-style: none;
+    line-height: 40px;
+}
+
+.footerDetailsPointer{
+    display: grid;
+    margin: 20px;
+    margin-inline-start:30px ;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 50px;
+}
+
+.socialMediaLogoContainer{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 20px;
+}
+
+
+.paymentMethodContainer{
+    margin-block:20px ;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 15px;
+}
+
+.paymentMethodContainer img{
+    width: 50px;
+    aspect-ratio: 16/10;
+    object-fit: cover;
+    margin-inline: 5px;
+    /* margin-block: 40px; */
+}
+
+.footerDetailsPointer h3{
+    font-weight: 500;
+    font-size: 23px;
+    word-spacing: 5px;
+}
+.AppStoreLogoConatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.googlePlayStore,.appleStore{
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 150px;
+    margin: 10px;
+    padding: 5px;
+    padding-inline:10px ;
+}
+
+.AuraAttireAddresss h1 {
+   
+    font-family: "Playwrite IS", cursive;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-size: 40px;
+  font-style: normal;
+  margin-left:20px;
+  }
+
+  .AuraAttireAddresss p {
+    margin: 20px;
+    font-size: 17px;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  cursor: pointer;
+  }
+ .copywriteclaimtoGod {
+  /* display: block; */
+  color: skyblue;
+  transition: 3s ease-in;
+}
+
+.googlePlayStore,.appleStore{
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+}
+
+.googlePlayStoreLogo{
+    font-size: 30px;
+}
+.googlePlayStoreName span,.appleStoreName span {
+    font-size: 10px;
+}
+
+.googlePlayStore h4,.appleStore h4{
+   font-weight: 500;
+}
+.appleStoreLogo{
+    position: relative;
+    left: -6px;
+    font-size: 40px;
+}
+.footer li{
+    cursor:pointer;
+}
+.footer li:hover{
+    color: aqua;
+}
