@@ -1,7 +1,8 @@
 import React, { Fragment, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserCircle } from '@fortawesome/free-solid-svg-icons';
+import { faUserCircle,faCaretDown,faCaretUp } from '@fortawesome/free-solid-svg-icons';
+
 
 const NavOptions = ({ displayMenu, toggleMenu }) => {
   const [navDropDown, setNavDropDown] = useState({
@@ -31,7 +32,7 @@ const NavOptions = ({ displayMenu, toggleMenu }) => {
         <li><Link to='/brands' onClick={toggleMenu}>BRAND</Link></li>
         <li><Link to='/aboutus' onClick={toggleMenu}>ABOUT US</Link></li>
         <li><Link to='/membership' onClick={toggleMenu}>MEMBERSHIP</Link></li>
-        <li onClick={() => toggleDropDown('readyToWear')}>READY-TO-WEAR
+        <li onClick={() => toggleDropDown('readyToWear')}>READY-TO-WEAR<span><FontAwesomeIcon icon={navDropDown.readyToWear?faCaretDown:faCaretUp} style={{position:'relative',bottom:'-2px',left:'3px'}}/></span>
           {navDropDown.readyToWear && 
           <ul className='dropdownOptions'>
             <li>VIEW ALL</li>
@@ -47,7 +48,7 @@ const NavOptions = ({ displayMenu, toggleMenu }) => {
             <li>PANTS & JUMPSUITS</li>
           </ul>}
         </li>
-        <li onClick={() => toggleDropDown('lookBook')}>LOOKBOOK
+        <li onClick={() => toggleDropDown('lookBook')}>LOOKBOOK<span><FontAwesomeIcon icon={navDropDown.lookBook?faCaretDown:faCaretUp} style={{position:'relative',bottom:'-2px',left:'3px'}}/></span>
           {navDropDown.lookBook && 
           <ul className="dropdownOptions">
             <li>TRADITIONAL</li>
