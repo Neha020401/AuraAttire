@@ -37,11 +37,15 @@ header {
 
 .dropdownOptions{
   position: absolute;
-  top: 100px;
+  z-index: 1000000;
+  top: 84px;
   width: 100vw;
   left: 0px;
   height: 300px;
   background-color: white;
+  padding-top: 15px;
+  padding-left: 20px;
+  list-style: none;
 }
 .logosConatiner {
   display: flex;
