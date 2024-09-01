@@ -41,7 +41,7 @@ const NavOptions = ({ displayMenu, toggleMenu }) => {
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, [navDropDown]);
+  }, [navDropDown,dropdownRefs]);
 
   return (
     <Fragment>

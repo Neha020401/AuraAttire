@@ -5,7 +5,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faTwitter, faGoogle } from '@fortawesome/free-brands-svg-icons';
 
 
-const SignIn = () => {
+const SignIn = ({switchToSignIn}) => {
   const [signInInputs, setSignInInputs] = useState({
     email: '',
     password: '',
@@ -110,7 +110,7 @@ const SignIn = () => {
         </div>
        
       </form>
-       <div className='existingLogPara grid'>
+       <div className='existingLogPara grid' onClick={switchToSignIn}>
         Log In existing account
         <FontAwesomeIcon icon={faArrowRight} />
         </div>

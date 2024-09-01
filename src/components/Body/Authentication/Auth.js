@@ -4,6 +4,7 @@ import LogIn from './LogIn'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faGoogle } from '@fortawesome/free-brands-svg-icons';
+//import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Auth = () => {
   const [switchAuth,setSwitchAuth] = useState(true);
@@ -16,7 +17,7 @@ const Auth = () => {
       <div className="authConatiner">
         {
           switchAuth? 
-          <SignIn/>: <LogIn switchToSignIn={toggleAuth}/>
+          <SignIn switchToSignIn={toggleAuth}/>: <LogIn switchToSignIn={toggleAuth}/>
         }
       <div style={{background:'black',width:'50%',color:'white',cursor:'pointer'}} className='grid authWelcomeDesign'>
  <h3> Welcome to Aura Attire</h3>
