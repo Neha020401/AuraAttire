@@ -1,4 +1,4 @@
-/* 
+
 .TrendsContainer{
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin-left: 30px;
@@ -45,4 +45,9 @@
  background-color: white;
  font-weight: 600;
  box-shadow: 0 0 5px 5px rgba(128,128,128,0.6);
-} */
+}
+
+.Cart-btn{
+  font-size: 25px;
+  padding: 20px 10px;
+}

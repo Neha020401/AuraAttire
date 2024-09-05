@@ -12,7 +12,7 @@ const Trends = () => {
         <h3 className='trendsName'>{trend.name}</h3>
         <p  className='trendsColors' >{trend.color}</p>
         {/* <p className=' trendsDetail'>Detail:- {trend.detail}</p> */}
-        <button>Add To Cart </button>
+        <button className='Cart-btn'>Add To Cart </button>
       </div>
     )
   })
