@@ -21,7 +21,7 @@ const Auth = () => {
         }
       <div style={{background:'black',width:'50%',color:'white',cursor:'pointer'}} className='grid authWelcomeDesign'>
  <h3> Welcome to Aura Attire</h3>
- <img src="../../../../Images/AuraAttirecanvasImg.png" alt="" width={"200px"}/>
+ <img src="../../../../Images/file.png" alt="" width={"200px"} className='logoinauth'/>
  <p onClick={toggleAuth}>
   {switchAuth ? 'LogIn exiting account':'Create  New Account'}
   </p>
@@ -34,7 +34,6 @@ const Auth = () => {
    Mail
   </button>
       </div>
-
       </div>
     </div>
   )
