@@ -54,6 +54,7 @@ const NavOptions = ({ displayMenu, toggleMenu }) => {
         <li><Link to='/newin' onClick={toggleMenu}>NEW IN</Link></li>
         <li className="displayOnSmallerScreen"><Link to='/customer-service' onClick={toggleMenu}>Customer Service</Link></li>
         <li><Link to='/brands' onClick={toggleMenu}>BRAND</Link></li>
+        <li><Link to='/products' onClick={toggleMenu}>PRODUCTS</Link></li>
         <li><Link to='/aboutus' onClick={toggleMenu}>ABOUT US</Link></li>
         <li><Link to='/membership' onClick={toggleMenu}>MEMBERSHIP</Link></li>
         <li ref={dropdownRefs.readyToWear} onClick={() => toggleDropDown('readyToWear')}>

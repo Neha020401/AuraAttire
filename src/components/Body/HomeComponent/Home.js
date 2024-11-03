@@ -1,11 +1,11 @@
 import React from 'react';
-// import HomeBanner from './HomeBanner';
+import HomeBanner from './HomeBanner';
 import HomeRecommend from './HomeRecommend';
 
 const Home = () => {
   return (
     <div className='homePage' >
-     {/* <HomeBanner/> */}
+     <HomeBanner/>
      <HomeRecommend/>
     </div>
   )
