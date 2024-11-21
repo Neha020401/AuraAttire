@@ -14,7 +14,7 @@ const Brand = () => {
     });
 
     return (
-        <div className=" brandContainer ">
+        <div className=" brandContainer grid">
             {brandList}
         </div>
     );

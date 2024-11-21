@@ -1,8 +1,8 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Trending from '../../objects/Trending'
 
 const Trends = () => {
-
+const [cartTitle,setCartTitle] = useState(false);
   const trendWear = Trending.map((trend) => {
     return (
       <div key={trend.id} className='trendsCard'>
@@ -12,7 +12,10 @@ const Trends = () => {
         <h3 className='trendsName'>{trend.name}</h3>
         <p  className='trendsColors' >{trend.color}</p>
         {/* <p className=' trendsDetail'>Detail:- {trend.detail}</p> */}
-        <button className='Cart-btn'>Add To Cart </button>
+        <button 
+        onClick={()=>{setCartTitle(prev => !prev)}}
+        className={!cartTitle?'addCart-btn':'removeCart-btn'}>
+          {!cartTitle ? "Add to Cart" : " Remove from Cart"}</button>
       </div>
     )
   })

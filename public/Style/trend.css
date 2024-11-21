@@ -1,35 +1,33 @@
-
 .TrendsContainer{
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  margin-left: 30px;
-  gap: 30px 50px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin: 10px;
+  gap: 20px;
 }
 .trendsCard{
   text-align: center;
-  width: 300px;
-  padding: 3px;
+  /* width: 300px; */
+  /* padding: 3px; */
   border: 1px solid black;
   box-shadow: 4px 4px 3px 5px rgba(0,0,0,0.2);
 }
-
 .trendsImg-Container {
   width: 100%;
   height: 400px;
   background-color: blanchedalmond;
 }
-
 .trendsImg-Container img{
- width: 100%;
- height: 100%;
- object-fit: cover;
-}
-.trendsName{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ }
+ .trendsName{
   height: 3rem;
-  font-size: 18px;
+  /* font-size: 15px; */
   padding-block:2px;
   padding-inline: 5px;
 }
-.trendsCard button {
+
+.addCart-btn{
   display: inline-block;
   padding-block:10px;
   padding-inline:5px;
@@ -37,17 +35,21 @@
   font-size: 15px;
   margin-block: 10px;
 }
-
-
-.trendsCard button:hover{
+.addCart-btn:hover{
  border: 2px solid black;
  color: black;
  background-color: white;
- font-weight: 600;
+ /* font-weight: 600; */
  box-shadow: 0 0 5px 5px rgba(128,128,128,0.6);
 }
-
-.Cart-btn{
-  font-size: 25px;
-  padding: 20px 10px;
+.removeCart-btn{
+  border: 2px solid black;
+  background-color:whitesmoke;
+  color: black;
+  display: inline-block;
+  padding-block:10px;
+  padding-inline:5px;
+  border-radius:5px;
+  font-size: 15px;
+  margin-block: 10px;
 }

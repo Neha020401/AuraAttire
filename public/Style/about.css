@@ -1,0 +1,49 @@
+.aboutUs-Page {
+  text-align: center;
+  padding: 30px;
+  /* align-items: center; */
+}
+.aboutUs-Page div {
+  margin-bottom: 50px;
+}
+.aboutPage-head {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-bottom: 20px;
+  background-size: cover;
+  /* background: no-repeat url('https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
+  background-image: linear-gradient(
+      rgb(236 212 212 / 40%),
+      rgba(0, 0, 0, 0.418)
+    ),
+    url(https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  height: 400px;
+  /* display: grid;
+    justify-content: center;
+    align-items: center; */
+  padding: 40px;
+}
+.aboutPage-commitmentSection {
+  height: 400px;
+  background-size: cover;
+  background: no-repeat
+    url("https://images.unsplash.com/photo-1556740714-a8395b3bf30f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+.aboutPage-SocialMedia {
+  height: 400px;
+  background-size: cover;
+  background: no-repeat
+    url("https://cdn.pixabay.com/photo/2021/06/28/17/04/smartphone-6372154_1280.jpg");
+}
+
+.aboutPage-WomenEmpowerment {
+  height: 500px;
+  background: no-repeat
+    url("https://media.istockphoto.com/id/1370858710/photo/portrait-of-cheerful-mixed-age-range-multi-ethnic-women-celebrating-international-womens-day.jpg?s=1024x1024&w=is&k=20&c=kxGeQ2wOGNhR-YlBuy10HerLKK-6v7a9YNOrI_MUTkw=");
+  background-size: cover;
+}
+.aboutPage-EnvironmentalCare {
+  height: 500px;
+  background: no-repeat
+    url("https://media.istockphoto.com/id/512389477/photo/love-the-nature.jpg?s=1024x1024&w=is&k=20&c=SiAnJ7jm3aqrMwEqnOg1RQRRVULJxKrgFIfFkWMs3I8=");
+  background-size: cover;
+}

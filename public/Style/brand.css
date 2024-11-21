@@ -11,7 +11,7 @@
     /* display: grid;
     grid-row: auto;
     grid-template-columns: 1fr  1fr 1fr 1fr; */
-    gap: 40px;
+    gap: 20px;
 }
 .brandCard{
     /* display: grid; */
